@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>History Cleaner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #inputString {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    #deleteButton {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #deleteButton:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>History Cleaner</h1>
+  <input type="text" id="inputString" placeholder="Enter string to delete">
+  <button id="deleteButton">Delete History</button>
+  <script src="popup.js"></script>
+</body>
+</html>
